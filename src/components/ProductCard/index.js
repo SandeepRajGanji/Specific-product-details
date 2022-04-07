@@ -9,7 +9,7 @@ const ProductCard = props => {
   return (
     //   Wrap with Link from react-router-dom
     <li className="product-item">
-      <Link to={`/products/${id}`}>
+      <Link to={`/products/${id}`} className="product-item-link">
         <img src={imageUrl} alt="product" className="thumbnail" />
         <h1 className="title">{title}</h1>
         <p className="brand">by {brand}</p>
